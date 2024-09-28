@@ -85,7 +85,7 @@ function SignIn() {
       
       <div className='w-full max-w-md p-8 bg-white shadow-lg rounded-lg'>
         
-        <label className='block mb-2 text-lg'>Enter Your Email</label>
+        {/* <label className='block mb-2 text-lg'>Enter Your Email</label> */}
         <input 
           className='w-full p-2 border border-gray-300 rounded mb-4 focus:outline-none focus:ring-2 focus:ring-blue-500' 
           onChange={(e) => setEmail(e.target.value)} 
@@ -96,7 +96,7 @@ function SignIn() {
         />
 
        
-        <label className='block mb-2 text-lg'>Enter Your Password</label>
+        {/* <label className='block mb-2 text-lg'>Enter Your Password</label> */}
         <input 
           className='w-full p-2 border border-gray-300 rounded mb-4 focus:outline-none focus:ring-2 focus:ring-blue-500' 
           onChange={(e) => setPassword(e.target.value)} 
